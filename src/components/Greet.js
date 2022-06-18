@@ -4,8 +4,13 @@ import React from "react";
 //   return <h1>Hello World</h1>;
 // }
 
-const Greet = () => {
-  return <h1>Hello World</h1>;
+const Greet = (props) => {
+  return (
+    <div>
+      <h1>Hello {props.name} </h1>
+      {props.children}
+    </div>
+  );
 };
 
 export default Greet;
