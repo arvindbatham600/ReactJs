@@ -6,12 +6,14 @@ import Message from "./components/Message";
 import Counter from "./components/Counter";
 import FunctionalClickHandler from "./FunctionalClickHandler";
 import ClassClickHandler from "./ClassClickHandler";
+import EventBind from "./components/EventBind";
 
 function App() {
   return (
     <div className="App">
-      <FunctionalClickHandler />
-      <ClassClickHandler />
+      <EventBind />
+      {/* <FunctionalClickHandler />
+      <ClassClickHandler /> */}
       {/* <Counter /> */}
       {/* <Message /> */}
       {/* <Greet name="Arvind">

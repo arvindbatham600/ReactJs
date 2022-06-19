@@ -10,7 +10,7 @@ class Message extends Component {
 
   changeMessage() {
     this.setState({
-      Message: "Yes, You Are A Fool 🤪",
+      Message: "Yes, You Are A Fool `🤪`",
     });
   }
 
