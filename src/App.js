@@ -9,11 +9,13 @@ import ClassClickHandler from "./ClassClickHandler";
 import EventBind from "./components/EventBind";
 import ParentComponent from "./components/ParentComponent";
 import Conditional from "./components/Conditional";
+import NameList from "./components/NameList";
 
 function App() {
   return (
     <div className="App">
-      <Conditional />
+      <NameList />
+      {/* <Conditional /> */}
       {/* <ParentComponent /> */}
       {/* <EventBind /> */}
       {/* <FunctionalClickHandler />
